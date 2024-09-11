@@ -1,7 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: bor;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     color: rgb(250, 99, 192);
 }
@@ -10,52 +10,50 @@
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
+}
 
-  body{
+body {
     height: 100vh;
-    width: 100vw ;
+    width: 100vw;
     display: flex;
-    align-items: center ;
-    justify-content: center ;
+    align-items: center;
+    justify-content: center;
     background-image: url("https://images.unsplash.com/photo-1581985430116-d8fba25256b0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  label{
+label {
     font-weight: bolder;
     color: rgb(209, 4, 236);
     margin-bottom: 8px;
+}
 
-  }
-
-input [ type="text"], select {
-    width: 1%;
-    border: 1px solid ;
+input[type="text"], select {
+    width: 100%; /* Ajustado para 100% para se adaptar ao contêiner */
+    border: 1px solid;
     border-radius: 5px;
     font-size: 16px;
     box-sizing: border-box;
 }
 
-
-input[type="text"]:focus , select:focus {
+input[type="text"]:focus, select:focus {
     border-color: antiquewhite;
     outline: none;
     box-shadow: 0 0 5px rgb(163, 39, 116);
 }
 
-.container{
+.container {
     background-color: rgba(250, 207, 232, 0.692);
     padding: 30px;
     border-radius: 10px;
 }
 
-h1{
+h1 {
     margin-bottom: 30px;
 }
 
-button{
+button {
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 12px;
@@ -63,8 +61,8 @@ button{
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-   transition:  background-color 0.3s ease , transform 0.2s ease;
-   align-self: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: center;
 }
 
 button:hover {
